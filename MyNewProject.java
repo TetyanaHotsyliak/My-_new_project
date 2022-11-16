@@ -1,5 +1,8 @@
 public class MyNewProject {
     public static void main(String[] args){
-        System.out.print("Hello");
+        print("Hello");
+    }
+    public static void print(String text){
+        System.out.print(text);
     }
 }
